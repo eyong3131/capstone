@@ -1,0 +1,109 @@
+
+#profile2{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+.p-0 {
+    padding: 0!important;
+}
+.my-title{
+    background-color: #0882c8!important;
+    color: aliceblue;
+}
+.shadow {
+    box-shadow: 0 .5rem 1rem aliceblue!important;
+}
+.bg-top-panel /*background-color: #787b7e!important;*/{
+    background-color: #0a8dda!important;
+}
+
+/*******Side bar********/
+.sideNav{
+    background-color: #1b97df;
+}
+.sideNav a{
+    color: aliceblue;
+    position: sticky;
+}
+
+.nav-item a:hover{
+    background-color: #003f64;
+    color: aliceblue;
+    display: block;
+}
+
+@media (min-width: 768px){.myh4{font-size: 2.5vw;}}
+@media (min-width: 768px){
+.px-md-4 {
+    padding-right: 1.5rem!important;
+    padding-left: 1.5rem!important;
+}
+}
+@media (min-width: 576px){
+.ms-sm-auto {
+    margin-left: auto!important;
+}
+}
+@media (min-width: 768px){
+.col-md-9 {
+    flex: 0 0 auto;
+    width: 75%;
+}
+}
+main{
+    display: block;
+}
+/**********main body************/
+
+/*******************************/
+body {
+    font-size: .875rem;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 360;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+/*******************leaflet**********************/
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}

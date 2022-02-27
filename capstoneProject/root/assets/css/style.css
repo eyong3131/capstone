@@ -1,0 +1,146 @@
+#logoutButton{ 	
+  outline: none;
+  background: transparent;
+  border: 1px solid transparent;
+}
+#myProfile{
+    border-radius: 50%;
+   width:100px;
+  }
+  .myTitle{font-size: 5vw;}
+
+  .fa-white{
+    color: aliceblue;
+  }
+  mt-2 {
+    width: 1200px;
+  }
+   nav ul li a p{
+      color:aliceblue;
+   }
+   nav ul li a i{
+      color:black;
+   }
+   .profile{
+       list-style-type:none;
+   }
+   @media (min-width: 768px){.myTitle{font-size: 4vw;}}
+
+    table.dataTable thead{
+      background-color:#0882c8;
+      color:aliceblue;
+      font-size: 18px;
+    }
+    table.dataTable tbody tr td:nth-child(2):hover {
+      background-color:#71d1eb !important;
+      font-size:1.05rem;
+      transition: 0.3s;
+   }
+    table.dataTable,table.dataTable tr,table.dataTable td{
+      border-style:solid;
+      border-color:	#0882c8;
+      border-width: 1px;
+    }
+    table.dataTable tr td:nth-child(2){
+      width: 100px;
+    }
+     /**
+   Profile
+   */
+   .overflow-auto{
+    width: auto;
+    height:10rem;
+  }
+  @media screen and (max-width:767px) {
+    .myrow {
+      display: flex;
+      flex-direction: column-reverse;
+      border: 1px solid black;
+    }
+    .mycard1 {
+      width: 100%;
+      float: right;
+    }
+    .mycard2 {
+      width: 100%;
+      float: right;
+    }
+  }
+  #profileImg{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
+  #profileModal{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+  }
+  .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+.fileUpload {
+position: relative;
+overflow: hidden;
+margin: 10px;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.modal-header{
+  background-color: #0882c8;
+  color: aliceblue;
+}
+.notifications{
+  background-color:#df4759;
+  color:aliceblue;
+}
+.fa-exclamation-triangle{
+  color:	#ffc107;
+}
+.fa-eye{
+  color:#0882c8;
+}
+/** Data Tables*/
+.dataTables_filter, .dataTables_info { display: none; }
+div.dt-buttons {float: right;}
+#myProfile{
+ border-radius: 50%;
+width:100px;
+}
+.myTitle{font-size: 5vw;}
+.myFont{
+ font-size: 1.5rem;
+}
+aside.main-sidebar{
+   background-color: #0882c8;
+   color:rgb(77, 75, 75);
+}
+nav ul li a p{
+   color:aliceblue;
+}
+nav ul li a i{
+   color:black;
+}
+.profile{
+    list-style-type:none;
+}
+@media (min-width: 768px){.myTitle{font-size: 4vw;}}
+body { padding-right: 0 !important }
+ 
