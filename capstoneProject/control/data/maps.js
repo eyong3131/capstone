@@ -14,6 +14,7 @@ $(document).ready(function(){
     high = JSON.parse(json);
   });
   /***********************************/
+  console.log(brgy);
   setTimeout(function(){
     /*****Density of color*******/
     function brgyColor(d){

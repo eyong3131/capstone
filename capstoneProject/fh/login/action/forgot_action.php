@@ -54,8 +54,8 @@ function itexmo($number,$message,$apicode,$passwd){
             //$passwd = "k]46l#8&#p";
             $number = trim($row['contact']);
             $message = "Your Code is: " . $new_password;
-            $apicode = $apiItexmo['code'];
-            $passwd = $apiItexmo['password'];
+            $apicode = 'TR-STUDE153892_PXGYJ';
+            $passwd = '3)k(q@q3h)';
 
 
             itexmo($number,$message,$apicode,$passwd);
