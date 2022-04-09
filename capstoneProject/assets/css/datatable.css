@@ -1,0 +1,25 @@
+.dataTables_filter, .dataTables_info { display: none; }
+div.dt-buttons {float: right;}
+#myProfile{
+ border-radius: 50%;
+width:100px;
+}
+.myTitle{font-size: 5vw;}
+.myFont{
+ font-size: 2rem;
+}
+aside.main-sidebar{
+   background-color: #0882c8;
+   color:rgb(77, 75, 75);
+}
+nav ul li a p{
+   color:aliceblue;
+}
+nav ul li a i{
+   color:black;
+}
+.profile{
+    list-style-type:none;
+}
+@media (min-width: 768px){.myTitle{font-size: 4vw;}}
+body { padding-right: 0 !important }
